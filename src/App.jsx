@@ -7,7 +7,6 @@ import Login from "./pages/Login";
 import Kasir from "./pages/Kasir";
 import Transaksi from "./pages/Transaksi";
 import KelolaProduk from "./pages/KelolaProduk";
-import Rekap from "./pages/Rekap";
 
 export default function App() {
   return (
@@ -31,14 +30,6 @@ export default function App() {
                 element={
                   <ProtectedRoute ownerOnly>
                     <KelolaProduk />
-                  </ProtectedRoute>
-                }
-              />
-              <Route
-                path="/rekap"
-                element={
-                  <ProtectedRoute ownerOnly>
-                    <Rekap />
                   </ProtectedRoute>
                 }
               />

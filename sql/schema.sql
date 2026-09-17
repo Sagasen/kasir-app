@@ -18,6 +18,12 @@ create policy "profiles_select_own"
   on public.profiles for select
   using (auth.uid() = id);
 
+-- Semua user yang sudah login boleh lihat nama akun lain (dipakai di halaman
+-- Transaksi & Pengeluaran untuk menampilkan nama kasir/owner yang bersangkutan).
+create policy "profiles_select_all_auth"
+  on public.profiles for select
+  using (auth.role() = 'authenticated');
+
 
 -- 2. PRODUCTS (daftar produk yang dijual)
 create table public.products (

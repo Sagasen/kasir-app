@@ -6,7 +6,6 @@ const NAV_ITEMS = [
   { to: "/kasir", label: "Kasir", icon: "🧾", ownerOnly: false },
   { to: "/transaksi", label: "Transaksi", icon: "📋", ownerOnly: false },
   { to: "/produk", label: "Kelola Produk", icon: "📦", ownerOnly: true },
-  { to: "/rekap", label: "Rekapitulasi", icon: "📊", ownerOnly: true },
 ];
 
 export default function Layout() {
