@@ -1,0 +1,8 @@
+Taruh screenshot aplikasi kamu di sini dengan nama file berikut, biar otomatis muncul di README.md:
+
+- kasir.png          -> screenshot halaman Kasir
+- kelola-produk.png  -> screenshot halaman Kelola Produk
+- login.png          -> screenshot halaman Login
+- transaksi.png      -> screenshot halaman Transaksi
+
+Setelah menambahkan file gambarnya, file catatan ini (PUT_SCREENSHOTS_HERE.txt) boleh dihapus.
